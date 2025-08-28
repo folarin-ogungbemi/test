@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-unsigned char	reverse_bits(unsigned char octet)
+unsigned char	ft_reverse_bits(unsigned char octet)
 {
 	unsigned int	i;
 	unsigned char	c;
