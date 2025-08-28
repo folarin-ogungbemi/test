@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include "list.h"
-
+/*
 t_list	*create_node(int data)
 {
 	t_list	*node;
@@ -29,7 +29,7 @@ void	add_node(t_list **headRef, t_list *new)
 		lst = lst->next;
 	lst->next = new;
 }
-
+*/
 t_list	*ft_sort_list(t_list *lst, int (*cmp)(int, int))
 {
 	int		swapped;
@@ -57,7 +57,7 @@ t_list	*ft_sort_list(t_list *lst, int (*cmp)(int, int))
 	}
 	return (lst);
 }
-
+/*
 int	main(void)
 {
 	t_list	*head;
@@ -77,4 +77,4 @@ int	main(void)
 	print_list(head);
 	free_list(head);
 	return (0);
-}
+}*/

@@ -7,7 +7,7 @@ int	ascending(int a, int b)
 {
 	return (a <= b);
 }
-
+/*
 void	print_list(t_list *lst)
 {
 	int	count;
@@ -31,4 +31,4 @@ void	free_list(t_list *lst)
 		lst = temp;
 	}
 	free(lst);
-}
+}*/
